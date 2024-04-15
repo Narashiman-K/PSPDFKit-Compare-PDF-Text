@@ -1,0 +1,270 @@
+[
+  {
+    "changedRange": {
+      "length": 16,
+      "position": 0
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "version: \"3."
+      },
+      {
+        "type": "delete",
+        "text": "8"
+      },
+      {
+        "type": "insert",
+        "text": "9"
+      },
+      {
+        "type": "equal",
+        "text": "\"\r\n"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 29,
+      "position": 16
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "services:\r\n pspd"
+      },
+      {
+        "type": "delete",
+        "text": "f"
+      },
+      {
+        "type": "equal",
+        "text": "kit:\r\n image:"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 52,
+      "position": 39
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "image: pspdfkit/"
+      },
+      {
+        "type": "delete",
+        "text": "d"
+      },
+      {
+        "type": "insert",
+        "text": "D"
+      },
+      {
+        "type": "equal",
+        "text": "ocument-"
+      },
+      {
+        "type": "delete",
+        "text": "e"
+      },
+      {
+        "type": "insert",
+        "text": "E"
+      },
+      {
+        "type": "equal",
+        "text": "ngine:"
+      },
+      {
+        "type": "delete",
+        "text": "1"
+      },
+      {
+        "type": "insert",
+        "text": "2"
+      },
+      {
+        "type": "equal",
+        "text": ".0.0\r\n environment:"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 34,
+      "position": 113
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "PGPASSWORD: pass"
+      },
+      {
+        "type": "delete",
+        "text": "w"
+      },
+      {
+        "type": "insert",
+        "text": "W"
+      },
+      {
+        "type": "equal",
+        "text": "ord\r\n PGDATABASE:"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 30,
+      "position": 136
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "PGDATABASE: pspd"
+      },
+      {
+        "type": "delete",
+        "text": "f"
+      },
+      {
+        "type": "insert",
+        "text": "F"
+      },
+      {
+        "type": "equal",
+        "text": "kit\r\n PGHOST:"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 49,
+      "position": 159
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "PGHOST: d"
+      },
+      {
+        "type": "delete",
+        "text": "b"
+      },
+      {
+        "type": "insert",
+        "text": "atabase"
+      },
+      {
+        "type": "equal",
+        "text": "\r\n PGPORT: 5"
+      },
+      {
+        "type": "delete",
+        "text": "4"
+      },
+      {
+        "type": "insert",
+        "text": "6"
+      },
+      {
+        "type": "equal",
+        "text": "32\r\n API_AUTH_TOKEN:"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 73,
+      "position": 193
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "API_AUTH_TOKEN: sec"
+      },
+      {
+        "type": "delete",
+        "text": "ret"
+      },
+      {
+        "type": "insert",
+        "text": "urity"
+      },
+      {
+        "type": "equal",
+        "text": "\r\n SECRET_KEY_BASE: secret-"
+      },
+      {
+        "type": "delete",
+        "text": "key-"
+      },
+      {
+        "type": "equal",
+        "text": "base\r\n JWT_PUBLIC_KEY:"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 137,
+      "position": 302
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2gzhmJ9TDanEzW\r\ndP1WG+\r\n \r\n"
+      },
+      {
+        "type": "delete",
+        "text": "0Ecwbe7f3bv6e5UUpvcT5q68IQJKP47AQdBAnSlFVi4X9SaurbWoXdS6jpmP\r\npk24\r\n \r\n"
+      },
+      {
+        "type": "equal",
+        "text": "QvitzLNFphHdwjFBelTAOa6taZrSusoFvrtK9x5xsW4zzt/bkpUraNx82Z8MwL\r\nwr"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 52,
+      "position": 693
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "JWT_ALGORITHM: RS25"
+      },
+      {
+        "type": "delete",
+        "text": "6"
+      },
+      {
+        "type": "insert",
+        "text": "4"
+      },
+      {
+        "type": "equal",
+        "text": "\r\n DASHBOARD_USERNAME: dashboard"
+      }
+    ]
+  },
+  {
+    "changedRange": {
+      "length": 66,
+      "position": 748
+    },
+    "operations": [
+      {
+        "type": "equal",
+        "text": "DASHBOARD_PASSWORD: secret"
+      },
+      {
+        "type": "insert",
+        "text": "ity\r\n ports:\r\n - 5001:5002\r\n depends_on:"
+      }
+    ]
+  }
+]
