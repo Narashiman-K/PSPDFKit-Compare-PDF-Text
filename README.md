@@ -3,13 +3,21 @@ This software is provided as-is, without warranty of any kind, express or implie
 
 The user is solely responsible for determining the appropriateness of using or redistributing the software and assumes any risks associated with the exercise of permissions under the license.
 
-# This is a # React + TypeScript + Vite
-#
-cd inside the folder 
+# React + TypeScript + Vite Project
 
-npm install 
-npm install PSPDFKit 
-npm install @baseline-UI/core @baseline-UI/app @baseline-UI/recipes @baseline-UI/blocks @baseline-UI/icons 
-npm run dev
+## Getting Started
 
-#
+Follow these steps to set up and run the project locally:
+
+1. Open a terminal and navigate to the project directory.
+2. Install the project dependencies:
+   npm i
+3. Copy the PSPDFKit for Web library assets to the public directory:
+   cp -R ./node_modules/pspdfkit/dist/pspdfkit-lib public/pspdfkit-lib
+4. Run the project locally:
+   npm run dev
+
+
+
+
+
