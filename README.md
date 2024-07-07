@@ -4,7 +4,7 @@ This software is provided as-is, without warranty of any kind, express or implie
 The user is solely responsible for determining the appropriateness of using or redistributing the software and assumes any risks associated with the exercise of permissions under the license.
 
 # This is a # React + TypeScript + Vite
-#---------------------------------------------------------#
+#
 cd inside the folder 
 
 npm install 
@@ -12,4 +12,4 @@ npm install PSPDFKit
 npm install @baseline-UI/core @baseline-UI/app @baseline-UI/recipes @baseline-UI/blocks @baseline-UI/icons 
 npm run dev
 
-#---------------------------------------------------------#
+#
